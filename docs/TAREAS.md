@@ -42,7 +42,7 @@ Lista completa de lo que hay que hacer hasta tener la app funcionando en la empr
 - [x] **ALE-00g** Entidad `Usuario`, `Rol`, `UsuarioRepository` y CORS
 - [x] **ALE-00h** Guía del equipo (`docs/GUIA_EQUIPO.md`)
 - [x] **ALE-00i** Invitar a los compañeros al repositorio
-- [ ] **ALE-00j** Proteger `main` (Pull Request obligatorio con 1 aprobación)
+- [x] **ALE-00j** Proteger `main` (Pull Request obligatorio con 1 aprobación)
 - [ ] **EXP-00** / **PRE-00** Instalar el entorno, clonar, crear rama y arrancar el proyecto
 
 ---
@@ -63,7 +63,7 @@ Hay que hacerla pronto, porque los demás la usan. El resto de tareas de cada un
 ## Fase 2 — Login y usuarios (ALE) → 🏁 H1
 
 ### Backend
-- [ ] **ALE-10** Spring Security + JWT + login + creación del admin inicial *(en curso)*
+- [x] **ALE-10** Spring Security + JWT + login + creación del admin inicial *(en curso)*
 - [ ] **ALE-11** API de gestión de usuarios (solo ADMIN):
   - [ ] `GET /api/usuarios` — listado (activos e inactivos)
   - [ ] `POST /api/usuarios` — alta (usuario en minúsculas, sin tildes ni espacios, único)
