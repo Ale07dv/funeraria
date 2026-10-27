@@ -117,6 +117,8 @@ expediente/
 - La base de datos está en modo `validate`: la entidad tiene que coincidir con la tabla. Si no, el backend no arranca y el error dice qué columna falla.
 
 **Frontend**
+- Librería de componentes: **PrimeNG** (tablas, formularios, calendarios, diálogos, botones). Antes de crear un componente a mano, mirad si PrimeNG ya lo tiene: primeng.org.
+- Iconos: **PrimeIcons** (`pi pi-...`).
 - Cada uno trabaja dentro de su carpeta de `src/app/`.
 - La URL del backend es `http://localhost:8080/api`.
 

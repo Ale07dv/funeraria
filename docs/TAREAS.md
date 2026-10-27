@@ -41,7 +41,7 @@ Lista completa de lo que hay que hacer hasta tener la app funcionando en la empr
 - [x] **ALE-00f** Esquema de base de datos (`V1__esquema_inicial.sql`)
 - [x] **ALE-00g** Entidad `Usuario`, `Rol`, `UsuarioRepository` y CORS
 - [x] **ALE-00h** Guía del equipo (`docs/GUIA_EQUIPO.md`)
-- [ ] **ALE-00i** Invitar a los compañeros al repositorio
+- [x] **ALE-00i** Invitar a los compañeros al repositorio
 - [ ] **ALE-00j** Proteger `main` (Pull Request obligatorio con 1 aprobación)
 - [ ] **EXP-00** / **PRE-00** Instalar el entorno, clonar, crear rama y arrancar el proyecto
 
@@ -51,8 +51,8 @@ Lista completa de lo que hay que hacer hasta tener la app funcionando en la empr
 
 Hay que hacerla pronto, porque los demás la usan. El resto de tareas de cada uno no espera por ella: pueden empezar con sus entidades.
 
-- [ ] **TODOS-01** Decidir la librería de componentes: **PrimeNG** (recomendada: tablas y calendarios muy completos) o Angular Material
-- [ ] **ALE-01** Instalar la librería elegida y configurar tema, idioma español y formato de fecha `dd/MM/yyyy`
+- [x] **TODOS-01** Decidir la librería de componentes → **PrimeNG**
+- [ ] **ALE-01** Instalar **PrimeNG** (con su tema e iconos `primeicons`) y configurarlo en español: textos de los componentes, primer día de la semana en lunes y formato de fecha `dd/MM/yyyy`
 - [ ] **ALE-02** Crear `environment.ts` con `apiUrl = 'http://localhost:8080/api'`
 - [ ] **ALE-03** Crear la estructura de carpetas de Angular: `auth/`, `layout/`, `usuarios/`, `expedientes/`, `presupuestos/`, `shared/`
 - [ ] **ALE-04** Rutas vacías en `app.routes.ts`: `/login`, `/expedientes`, `/usuarios` (cada uno rellenará su página)
@@ -245,8 +245,7 @@ Es la fase más larga. Cuando EXP termine la fase 3, se reparte: **EXP hace D3 y
 | 2 | ¿Quién puede **anular** un expediente: cualquiera o solo el admin? | Padre | EXP-09 |
 | 3 | En el Registro Civil, ¿el autorizado es siempre alguien de la funeraria? ¿Sigue siendo en papel? | Padre | EXP-21 |
 | 4 | ¿Hay más aseguradoras habituales aparte de OCASO y Preventiva? | Padre | TODOS-50 |
-| 5 | ¿PrimeNG o Angular Material? | Equipo | TODOS-01 |
-| 6 | ¿Quién paga el servidor y el dominio, y a nombre de quién se contratan? | Padre | ALE-50 |
+| 5 | ¿Quién paga el servidor y el dominio, y a nombre de quién se contratan? | Padre | ALE-50 |
 
 ---
 
