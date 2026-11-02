@@ -1,1 +1,21 @@
 .idea/
+
+# Configuración local con credenciales. Publicar solo ejemplos sin secretos.
+.env
+.env.*
+!.env.example
+!.env.*.example
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Claves privadas y almacenes de certificados.
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+
+# Copias de la base de datos (las migraciones SQL sí se versionan).
+*.dump
+*.backup
