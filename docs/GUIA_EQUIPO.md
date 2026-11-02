@@ -46,7 +46,9 @@ git config --global user.email "tu@email.com"
    git checkout -b feature/TU-RAMA
    git push -u origin feature/TU-RAMA
    ```
-3. **Base de datos** (con Docker Desktop abierto):
+3. **Configuración local**: cread `.env` en la raíz con `DB_PASSWORD=` y una contraseña propia. No lo subáis a Git. Configurad la misma variable `DB_PASSWORD` en la ejecución del backend en IntelliJ (Run → Edit Configurations → Environment variables). Spring no carga automáticamente el `.env` de Docker.
+
+   **Base de datos** (con Docker Desktop abierto):
    ```
    docker compose up -d
    ```
@@ -169,3 +171,7 @@ expediente/
 - **Nunca** uséis datos reales de familias, ni para probar ni en capturas.
 - **Nunca** subáis a GitHub contraseñas reales, documentos escaneados con datos o copias de la base de datos.
 - Para probar, inventad nombres y DNIs (ej: `Prueba Pérez, 00000000T`).
+
+## Credenciales existentes
+
+Si la base de datos ya tiene un volumen, cambiar `.env` no cambia su contraseña. Cambiad la contraseña del rol en PostgreSQL y después actualizad `DB_PASSWORD` en Docker y en el backend. Conservad el volumen y sus datos. Las credenciales publicadas anteriormente deben considerarse expuestas.
